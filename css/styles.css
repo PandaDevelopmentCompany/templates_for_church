@@ -2179,3 +2179,120 @@ span.main_span_style {
 #header .animated {
 	animation-delay: 2s;
 }
+
+
+
+
+
+
+/* Custom Demo Section Styling */
+.custom-demo-section {
+    position: relative;
+    background-color: #f8f9fa; /* Light background color */
+    padding: 50px 0;
+}
+
+.custom-demo-text {
+    margin-bottom: 20px;
+}
+
+.custom-section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.custom-main-span {
+    font-size: 1rem;
+    color: #777;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.custom-btn-solid-reg {
+    background-color: #5f4def;
+    color: white;
+    font-size: 1rem;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.custom-btn-solid-reg:hover {
+    background-color: #4b3ac3;
+}
+
+/* Custom Demo Image Section */
+.custom-demo-image-container {
+    position: relative;
+    overflow: hidden;
+    height: 400px; /* Высота блока */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    width: 100%; /* Ширина на всю доступную ширину контейнера */
+}
+
+/* Стили для ссылки */
+.custom-image-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* Стили для изображения */
+.custom-img-wrapper {
+    position: absolute;
+    top: 0; /* Убираем отступы сверху */
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.custom-demo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Это заставит изображение заполнять весь блок без белых полей */
+    object-position: center; /* Центрируем изображение в контейнере */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Масштабирование изображения при наведении */
+.custom-demo-image-container:hover .custom-demo-img {
+    transform: scale(1.1); /* Эффект увеличения изображения при наведении */
+}
+
+/* Адаптивные стили для мобильных устройств */
+@media (max-width: 767px) {
+    /* На мобильных устройствах делаем текст и картинку на весь экран */
+    .custom-demo-section {
+        padding: 40px 20px;
+    }
+
+    .custom-section-title {
+        font-size: 1.5rem;
+    }
+
+    .custom-main-span {
+        font-size: 0.875rem;
+    }
+
+    .custom-btn-solid-reg {
+        padding: 10px 25px;
+    }
+
+    .custom-demo-image-container {
+        height: 300px; /* Меньше высота для мобильных устройств */
+    }
+}
+
+
+
+
+
+
+
+
+
+
