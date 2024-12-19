@@ -2172,3 +2172,10 @@ span.main_span_style {
 .custom-image:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Более выраженная тень при наведении */
 }
+
+
+
+
+#header .animated {
+	animation-delay: 1s;
+}
