@@ -485,8 +485,7 @@
     </div> <!-- end of cards-2 -->
     <!-- end of pricing -->
 
-
- <!-- Services  -->
+<!-- Services  -->
 <div id="service" class="Services">
     <div class="container">
         <div class="row">
@@ -501,37 +500,37 @@
         </div>
         <div class="row">
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                <div class="Services-box">
+                <div class="service-box">
                     <h3>Верстка логотипа</h3>
                     <p>Если у вашей церкви нет логотипа – не страшно. В шаблоне уже присутствует нейтральный логотип по умолчанию. Либо вы можете обратиться к нам с техзаданием на разработку логотипа, фирменного стиля и т. д.</p>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                <div class="Services-box">
+                <div class="service-box">
                     <h3>Наполнение сайта данными</h3>
                     <p>Если у вас нет времени на наполнение сайта вашим контентом, мы можем сделать это за вас.</p>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                <div class="Services-box">
+                <div class="service-box">
                     <h3>Обновление сайта с вашим доменным именем</h3>
                     <p>Если у вас уже имеется сайт, и вы решили его обновить, оформив подписку у нас, мы заменим его на новый.</p>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                <div class="Services-box">
+                <div class="service-box">
                     <h3>Добавление новых блоков</h3>
                     <p>Если вы считате, что на сайте вашей церкви должны быть дополнительные разделы и блоки, мы добавим их.</p>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                <div class="Services-box">
+                <div class="service-box">
                     <h3>Углубленная <br>SEO-оптимизация</h3>
                     <p>Мы можем помочь вам с наполнением сайта новостями с точки зрения оптимизации для поисковых систем.</p>
                 </div>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                <div class="Services-box">
+                <div class="service-box">
                     <h3>Метрика на сайт</h3>
                     <p>Привяжем счетчик на ваш сайт для отслеживания посещений.</p>
                 </div>
@@ -543,28 +542,28 @@
 
 <style>
     /* Уменьшаем кегль и line-height для всех элементов в блоке с услугами */
-    #service .Services-box h3 {
+    #service .service-box h3 {
         font-size: 1.25rem; /* Уменьшаем размер шрифта заголовков */
         line-height: 1.3;   /* Уменьшаем line-height для заголовков */
     }
 
-    #service .Services-box p {
+    #service .service-box p {
         font-size: 0.875rem; /* Уменьшаем размер шрифта для параграфов */
         line-height: 1.3;    /* Уменьшаем line-height для параграфов */
     }
 
-    .titlepage h2 {
+    #service .titlepage h2 {
         font-size: 1.5rem;  /* Уменьшаем размер шрифта заголовка на странице */
         line-height: 1.4;   /* Уменьшаем line-height для заголовка */
     }
 
-    .titlepage p {
+    #service .titlepage p {
         font-size: 1rem;    /* Уменьшаем размер шрифта для текста под заголовком */
         line-height: 1.5;   /* Уменьшаем line-height для текста под заголовком */
     }
 
     /* Добавление легкой черной тени к карточкам */
-    #service .Services-box {
+    #service .service-box {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень */
         transition: box-shadow 0.3s ease; /* Плавный эффект при наведении */
         border-radius: 10px; /* Скругляем углы карточки */
@@ -576,18 +575,18 @@
     }
 
     /* Добавление тени при наведении */
-    #service .Services-box:hover {
+    #service .service-box:hover {
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Более выраженная тень при наведении */
     }
 
     /* Для корректного отображения 3 карточек в строку на десктопе */
     @media (min-width: 992px) {
-        .row {
+        #service .row {
             display: flex;
             flex-wrap: wrap;
             gap: 20px; /* Расстояние между карточками */
         }
-        .col-xl-4 {
+        #service .col-xl-4 {
             flex: 0 0 32%; /* Устанавливаем ширину карточек для 3-х в строке */
         }
     }
