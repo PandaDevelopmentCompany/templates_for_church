@@ -2166,12 +2166,14 @@ span.main_span_style {
 
 
 
+.custom-image {
+    width: 100%;
+    border-radius: 10px; /* Округлые углы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    transition: box-shadow 0.3s ease; /* Плавный эффект при наведении */
+}
 
-
-
-
-
-
-
-
-
+/* Эффект при наведении на изображение */
+.custom-image:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Более выраженная тень при наведении */
+}
